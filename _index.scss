@@ -1,0 +1,39 @@
+// Navbar
+.nav {
+  min-height: 7vh;
+  background-color: black;
+  min-width: 100vw;
+}
+
+//Hero Image
+.streletics-header {
+  min-width: 100vw;
+  min-height: 100vh;
+
+  .hero-image {
+    background: blue;
+    max-height: 40vh;
+    min-width: 100vw;
+  }
+
+  // Streletics header
+  .streletics-header {
+    h1 {
+      font-size: 40px;
+      color: red;
+    }
+    h2 {
+      font-size: 25px;
+      color: black;
+    }
+    #schnupperwoche-probieren {
+      background-color: red;
+      h4 {
+        font-size: 15px;
+        color: white;
+      }
+    }
+  }
+}
+
+// Fitness For You section, with light blue background

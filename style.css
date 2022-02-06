@@ -1,0 +1,36 @@
+.nav {
+  min-height: 7vh;
+  background-color: black;
+  min-width: 100vw;
+}
+
+.streletics-header {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.streletics-header .hero-image {
+  background: blue;
+  max-height: 40vh;
+  min-width: 100vw;
+}
+
+.streletics-header .streletics-header h1 {
+  font-size: 40px;
+  color: red;
+}
+
+.streletics-header .streletics-header h2 {
+  font-size: 25px;
+  color: black;
+}
+
+.streletics-header .streletics-header #schnupperwoche-probieren {
+  background-color: red;
+}
+
+.streletics-header .streletics-header #schnupperwoche-probieren h4 {
+  font-size: 15px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

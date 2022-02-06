@@ -1,7 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 .nav {
   min-height: 7vh;
   background-color: black;
   min-width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .nav-container {
+  border: 1px solid #f75c5c;
+  min-width: 100vw;
+  margin: auto;
+  padding: 0 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .nav-container .nav-logo {
+  width: 50px;
+  height: 50px;
+  background: blue;
+}
+
+.nav .nav-container .nav-streletics {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+}
+
+.nav .nav-container .nav-burger {
+  width: 50px;
+  height: 50px;
+  background: grey;
 }
 
 .streletics-header {

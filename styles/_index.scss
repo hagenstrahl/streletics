@@ -177,11 +177,48 @@
 // section-courses
 .section-courses {
   background-color: $coursered;
+  min-height: 100vh;
 
-  h2 {
+  .courses-header {
     text-align: center;
-    font-size: $h1;
+    font-size: $h2;
     font-family: $montserrat;
     text-decoration: underline;
+    padding: 2vh 0 4vh;
+  }
+}
+
+.training-container {
+  h2 {
+    font-size: $h3;
+    background-color: $winered;
+    display: inline-block;
+    margin: 0 0 2vh 7vw;
+    text-decoration: underline;
+    color: white;
+    font-family: $montserrat;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+
+  .training-img-background-container {
+    position: relative;
+    img {
+      max-width: 400px;
+    }
+
+    .img-background {
+      position: absolute;
+      filter: grayscale(100%);
+    }
+    .img-profile {
+      z-index: 2;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }

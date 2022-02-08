@@ -81,6 +81,7 @@ html {
   min-width: 100vw;
   min-height: 100vh;
   background: #d0e0ed;
+  padding-bottom: 5vh;
 }
 
 .streletics-header .hero-image img {

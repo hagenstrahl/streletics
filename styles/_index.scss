@@ -54,11 +54,6 @@
 
   // Heroimage of Jana
   .hero-image {
-    // background: url("../Images/bryggan-tele.jpg") bottom center no-repeat;
-    // background-size: contain;
-    // height: 50vh;
-    // max-width: 100vw;
-
     img {
       width: 100%;
       min-height: 10vh;
@@ -100,4 +95,56 @@
   }
 }
 
-// Fitness For You section, with light blue background
+// Personal text and image with an autograph
+.personal-text-img-section {
+  margin: 0 7vw 5vh;
+
+  p {
+    text-align: center;
+    margin: 2vh 0 4vh;
+    font-size: $p;
+    font-weight: 100;
+  }
+
+  img {
+    max-width: 200px;
+    margin: 3vh 0 0;
+  }
+  .img-autograph {
+    h5 {
+      font-family: $mrdehaviland;
+      font-size: $autograph;
+      font-weight: 100;
+      transform: translateY(-50px) translateX(170px) rotate(-45deg);
+      transform-origin: left;
+      position: absolute;
+    }
+  }
+}
+
+// Fitness For You and training explanation section, with light blue background
+.fitnessforyou-section {
+  h2 {
+    font-family: $montserrat;
+    font-size: $h3;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .training-explanations {
+    margin: 0 7vw;
+    .traininginfo-container {
+      margin: 2vh 0;
+
+      h3 {
+        font-family: $montserrat;
+        font-size: $h4;
+        font-weight: 600;
+      }
+      p {
+        font-size: $p;
+      }
+    }
+  }
+}

@@ -128,7 +128,7 @@ html {
 }
 
 .streletics-header .headlines #schnupperwoche-probieren h4 {
-  font-size: 15px;
+  font-size: calc(1rem + 0.2vw);
   color: white;
 }
 
@@ -183,5 +183,40 @@ html {
 
 .fitnessforyou-section .training-explanations .traininginfo-container p {
   font-size: calc(1rem + 0.2vw);
+}
+
+.training-is-fun-section {
+  min-height: 40vh;
+  text-align: center;
+  padding: 2vh 0;
+}
+
+.training-is-fun-section .personaltraining-btn {
+  border: none;
+  background: #a5b3be;
+  padding: 5px 15px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 11vh;
+}
+
+.training-is-fun-section h4 {
+  font-family: "Mr De Haviland", cursive;
+  font-weight: 100;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  text-align: center;
+  display: inline-block;
+  font-size: calc(3.5rem + 1vw);
+}
+
+.section-courses {
+  background-color: #fff8f8;
+}
+
+.section-courses h2 {
+  text-align: center;
+  font-size: calc(3.7rem + 4vw);
+  font-family: "Montserrat", sans-serif;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */

@@ -89,7 +89,7 @@
       border-radius: 1ch;
       padding: 4px 40px;
       h4 {
-        font-size: 15px;
+        font-size: $p;
         color: white;
       }
     }
@@ -147,5 +147,41 @@
         font-size: $p;
       }
     }
+  }
+}
+
+// Trainiering macht spaß! section
+.training-is-fun-section {
+  min-height: 40vh;
+  text-align: center;
+  padding: 2vh 0;
+
+  .personaltraining-btn {
+    border: none;
+    background: $buttondarkblue;
+    padding: 5px 15px;
+    font-family: $montserrat;
+    margin-bottom: 11vh;
+  }
+  h4 {
+    font-family: $mrdehaviland;
+    font-weight: 100;
+    //transform-origin: left;
+    transform: rotate(-15deg);
+    text-align: center;
+    display: inline-block;
+    font-size: $autograph2;
+  }
+}
+
+// section-courses
+.section-courses {
+  background-color: $coursered;
+
+  h2 {
+    text-align: center;
+    font-size: $h1;
+    font-family: $montserrat;
+    text-decoration: underline;
   }
 }

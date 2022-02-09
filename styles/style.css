@@ -196,7 +196,7 @@ html {
   background: #a5b3be;
   padding: 5px 15px;
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 11vh;
+  margin-bottom: 12vh;
 }
 
 .training-is-fun-section h4 {
@@ -234,34 +234,67 @@ html {
   font-weight: 700;
 }
 
-.training-container .training-img-background-container {
-  position: relative;
-}
-
-.training-container .training-img-background-container img {
-  max-width: 400px;
-}
-
 .training-container .training-img-background-container .img-background {
-  position: absolute;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-}
-
-.training-container .training-img-background-container .img-profile {
-  z-index: 2;
-  width: 200px;
-  height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  background: url("../Images/bryggan-tele-grey.jpg");
+  width: 100vw;
+  height: 180px;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-bottom: 100px;
+}
+
+.training-container .training-img-background-container .img-profile {
+  max-width: 230px;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 70px 0;
+  border-radius: 50%;
+}
+
+.course-description {
+  width: 80vw;
+  max-width: 250px;
+  margin: auto;
+}
+
+.course-description h4 {
+  font-size: calc(1.1rem + 0.2vw);
+  color: #701010;
+}
+
+.course-description p {
+  font-size: calc(1rem + 0.2vw);
+  padding-top: 3px;
+}
+
+.couse-schedule-container {
+  margin: 30px 7vw 0 7vw;
+}
+
+.couse-schedule-container h4 {
+  font-size: calc(1.1rem + 0.2vw);
+  color: #701010;
+  margin: 3px 0;
+}
+
+.couse-schedule-container p {
+  font-size: calc(1rem + 0.2vw);
+}
+
+.couse-schedule-container .course-activities-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 3vw;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=style.css.map */

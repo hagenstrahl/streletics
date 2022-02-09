@@ -161,12 +161,11 @@
     background: $buttondarkblue;
     padding: 5px 15px;
     font-family: $montserrat;
-    margin-bottom: 11vh;
+    margin-bottom: 12vh;
   }
   h4 {
     font-family: $mrdehaviland;
     font-weight: 100;
-    //transform-origin: left;
     transform: rotate(-15deg);
     text-align: center;
     display: inline-block;
@@ -202,23 +201,57 @@
   }
 
   .training-img-background-container {
-    position: relative;
-    img {
-      max-width: 400px;
-    }
-
     .img-background {
-      position: absolute;
-      filter: grayscale(100%);
-    }
-    .img-profile {
-      z-index: 2;
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
+      background: url("../Images/bryggan-tele-grey.jpg");
+      width: 100vw;
+      height: 180px;
+      background-size: cover;
       display: flex;
       justify-content: center;
-      align-items: center;
+      margin-bottom: 100px;
     }
+    .img-profile {
+      max-width: 230px;
+      height: 180px;
+      object-fit: cover;
+      margin: 70px 0;
+      border-radius: 50%;
+    }
+  }
+}
+
+// Intro-Text under the profileimage of courses
+.course-description {
+  width: 80vw;
+  max-width: 250px;
+  margin: auto;
+  h4 {
+    font-size: $h4;
+    color: $winered;
+  }
+  p {
+    font-size: $p;
+    padding-top: 3px;
+  }
+}
+
+// Which days and which activities are there?
+.couse-schedule-container {
+  margin: 30px 7vw 0 7vw;
+
+  h4 {
+    font-size: $h4;
+    color: $winered;
+    margin: 3px 0;
+  }
+  p {
+    font-size: $p;
+  }
+
+  .course-activities-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3vw;
+    margin-bottom: 5px;
   }
 }

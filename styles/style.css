@@ -219,14 +219,18 @@ html {
   font-size: calc(2rem + 2vw);
   font-family: "Montserrat", sans-serif;
   text-decoration: underline;
-  padding: 2vh 0 4vh;
+  padding: 2vh 0 0;
+}
+
+.training-container {
+  padding-bottom: 7vh;
 }
 
 .training-container h2 {
   font-size: calc(1.1rem + 1.5vw);
   background-color: #701010;
   display: inline-block;
-  margin: 0 0 2vh 7vw;
+  margin: 4vh 0 2vh 7vw;
   text-decoration: underline;
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -273,21 +277,22 @@ html {
   padding-top: 3px;
 }
 
-.couse-schedule-container {
-  margin: 30px 7vw 0 7vw;
+.course-schedule-container {
+  padding: 30px 7vw 0 7vw;
+  min-height: 10vh;
 }
 
-.couse-schedule-container h4 {
+.course-schedule-container h4 {
   font-size: calc(1.1rem + 0.2vw);
   color: #701010;
   margin: 3px 0;
 }
 
-.couse-schedule-container p {
+.course-schedule-container p {
   font-size: calc(1rem + 0.2vw);
 }
 
-.couse-schedule-container .course-activities-container {
+.course-schedule-container .course-activities-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -296,5 +301,19 @@ html {
           justify-content: space-between;
   padding-left: 3vw;
   margin-bottom: 5px;
+}
+
+.jugendliche {
+  background-color: #f9fffe;
+}
+
+.jugendliche h2 {
+  background: #03fcec;
+  text-shadow: 1px 1px 1px #3e3e3e;
+}
+
+.jugendliche h4 {
+  color: #03fcec;
+  text-shadow: 1px 1px 1px #3e3e3e;
 }
 /*# sourceMappingURL=style.css.map */

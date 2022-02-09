@@ -183,16 +183,17 @@
     font-size: $h2;
     font-family: $montserrat;
     text-decoration: underline;
-    padding: 2vh 0 4vh;
+    padding: 2vh 0 0;
   }
 }
 
 .training-container {
+  padding-bottom: 7vh;
   h2 {
     font-size: $h3;
     background-color: $winered;
     display: inline-block;
-    margin: 0 0 2vh 7vw;
+    margin: 4vh 0 2vh 7vw;
     text-decoration: underline;
     color: white;
     font-family: $montserrat;
@@ -236,8 +237,9 @@
 }
 
 // Which days and which activities are there?
-.couse-schedule-container {
-  margin: 30px 7vw 0 7vw;
+.course-schedule-container {
+  padding: 30px 7vw 0 7vw;
+  min-height: 10vh;
 
   h4 {
     font-size: $h4;
@@ -253,5 +255,19 @@
     justify-content: space-between;
     padding-left: 3vw;
     margin-bottom: 5px;
+  }
+}
+
+// Courses Jugendliche
+.jugendliche {
+  background-color: $courseturkis;
+  h2 {
+    background: $turkis;
+    text-shadow: 1px 1px 1px rgb(62, 62, 62);
+  }
+
+  h4 {
+    color: $turkis;
+    text-shadow: 1px 1px 1px rgb(62, 62, 62);
   }
 }

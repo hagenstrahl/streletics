@@ -303,17 +303,41 @@ html {
   margin-bottom: 5px;
 }
 
-.jugendliche {
+#jugendliche {
   background-color: #f9fffe;
 }
 
-.jugendliche h2 {
+#jugendliche h2 {
   background: #03fcec;
   text-shadow: 1px 1px 1px #3e3e3e;
 }
 
-.jugendliche h4 {
+#jugendliche h4 {
   color: #03fcec;
   text-shadow: 1px 1px 1px #3e3e3e;
+}
+
+#senioren {
+  background-color: #fffbf4;
+}
+
+#senioren h2 {
+  background: #c2961d;
+}
+
+#senioren h4 {
+  color: #c2961d;
+}
+
+#personaltraining {
+  background-color: #f3f7ff;
+}
+
+#personaltraining h2 {
+  background: #0031de;
+}
+
+#personaltraining h4 {
+  color: #0031de;
 }
 /*# sourceMappingURL=style.css.map */

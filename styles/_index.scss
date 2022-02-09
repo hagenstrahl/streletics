@@ -259,7 +259,7 @@
 }
 
 // Courses Jugendliche
-.jugendliche {
+#jugendliche {
   background-color: $courseturkis;
   h2 {
     background: $turkis;
@@ -272,4 +272,26 @@
   }
 }
 
-// test why image is gone
+// Courses Senioren
+#senioren {
+  background-color: $coursegold;
+  h2 {
+    background: $gold;
+  }
+
+  h4 {
+    color: $gold;
+  }
+}
+
+// Personaltraining
+#personaltraining {
+  background-color: $courseblue;
+  h2 {
+    background: $blue;
+  }
+
+  h4 {
+    color: $blue;
+  }
+}

@@ -128,7 +128,7 @@ html {
 }
 
 .streletics-header .headlines #schnupperwoche-probieren h4 {
-  font-size: calc(1.1rem + 0.2vw);
+  font-size: calc(1.15rem + 0.2vw);
   color: white;
 }
 
@@ -139,7 +139,7 @@ html {
 .personal-text-img-section p {
   text-align: center;
   margin: 2vh 0 4vh;
-  font-size: calc(1.1rem + 0.2vw);
+  font-size: calc(1.15rem + 0.2vw);
   font-weight: 100;
 }
 
@@ -177,12 +177,12 @@ html {
 
 .fitnessforyou-section .training-explanations .traininginfo-container h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: calc(1.4rem + 0.2vw);
+  font-size: calc(1.5rem + 0.2vw);
   font-weight: 600;
 }
 
 .fitnessforyou-section .training-explanations .traininginfo-container p {
-  font-size: calc(1.1rem + 0.2vw);
+  font-size: calc(1.15rem + 0.2vw);
 }
 
 .training-is-fun-section {
@@ -268,12 +268,12 @@ html {
 }
 
 .course-description h4 {
-  font-size: calc(1.4rem + 0.2vw);
+  font-size: calc(1.5rem + 0.2vw);
   color: #701010;
 }
 
 .course-description p {
-  font-size: calc(1.1rem + 0.2vw);
+  font-size: calc(1.15rem + 0.2vw);
   padding-top: 3px;
 }
 
@@ -283,13 +283,13 @@ html {
 }
 
 .course-schedule-container h4 {
-  font-size: calc(1.4rem + 0.2vw);
+  font-size: calc(1.5rem + 0.2vw);
   color: #701010;
   margin: 3px 0;
 }
 
 .course-schedule-container p {
-  font-size: calc(1.1rem + 0.2vw);
+  font-size: calc(1.15rem + 0.2vw);
 }
 
 .course-schedule-container .course-activities-container {
@@ -339,11 +339,11 @@ html {
 
 #personaltraining h4 {
   color: #0031de;
-  font-size: calc(1.4rem + 0.2vw);
+  font-size: calc(1.5rem + 0.2vw);
 }
 
 #personaltraining p {
-  font-size: calc(1.1rem + 0.2vw);
+  font-size: calc(1.15rem + 0.2vw);
 }
 
 #personaltraining .OneOnOne-gridbox {

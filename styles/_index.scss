@@ -334,3 +334,32 @@
     justify-content: center;
   }
 }
+
+// Lass Uns Freunde Sein!
+.lets-be-friends-container {
+  background: $backgroundlightblue;
+  min-height: 50vh;
+  width: 100vw;
+
+  .friends-header {
+    text-align: center;
+
+    h2 {
+      font-size: $h2small;
+      padding: 4vh 0 1vh;
+      font-family: $montserrat;
+      font-weight: 500;
+    }
+    p {
+      font-size: $p;
+    }
+  }
+
+  .friends-images {
+    height: 15vh;
+  }
+
+  .friends-motivational-text {
+    margin: 0 7vw;
+  }
+}

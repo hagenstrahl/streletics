@@ -397,4 +397,33 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.lets-be-friends-container {
+  background: #d0e0ed;
+  min-height: 50vh;
+  width: 100vw;
+}
+
+.lets-be-friends-container .friends-header {
+  text-align: center;
+}
+
+.lets-be-friends-container .friends-header h2 {
+  font-size: calc(1.5rem + 2vw);
+  padding: 4vh 0 1vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.lets-be-friends-container .friends-header p {
+  font-size: calc(1.15rem + 0.2vw);
+}
+
+.lets-be-friends-container .friends-images {
+  height: 15vh;
+}
+
+.lets-be-friends-container .friends-motivational-text {
+  margin: 0 7vw;
+}
 /*# sourceMappingURL=style.css.map */

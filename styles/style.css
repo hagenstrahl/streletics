@@ -425,10 +425,25 @@ html {
 
 .lets-be-friends-container .friends-motivational-text {
   margin: 0 7vw;
+  padding: 0 20px;
+  position: relative;
 }
 
 .lets-be-friends-container .friends-motivational-text .friends-apostroph {
-  font-size: calc(2rem + 2vw);
+  font-size: calc(3.5rem + 1vw);
   font-family: "Passion One", cursive;
+  position: absolute;
+}
+
+.lets-be-friends-container .friends-motivational-text #friends-apostroph-left {
+  top: -45px;
+  left: -10px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.lets-be-friends-container .friends-motivational-text #friends-apostroph-right {
+  bottom: -45px;
+  right: 0;
 }
 /*# sourceMappingURL=style.css.map */

@@ -361,10 +361,22 @@
 
   .friends-motivational-text {
     margin: 0 7vw;
+    padding: 0 20px;
+    position: relative;
 
     .friends-apostroph {
-      font-size: $h2;
+      font-size: $apostroph;
       font-family: $passionone;
+      position: absolute;
+    }
+    #friends-apostroph-left {
+      top: -45px;
+      left: -10px;
+      transform: rotate(180deg);
+    }
+    #friends-apostroph-right {
+      bottom: -45px;
+      right: 0;
     }
   }
 }

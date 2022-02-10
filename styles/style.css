@@ -339,5 +339,62 @@ html {
 
 #personaltraining h4 {
   color: #0031de;
+  font-size: calc(1.1rem + 0.2vw);
+}
+
+#personaltraining p {
+  font-size: calc(1rem + 0.2vw);
+}
+
+#personaltraining .OneOnOne-gridbox {
+  display: -ms-grid;
+  display: grid;
+}
+
+#personaltraining .training-img-background-container {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 4 / 2;
+}
+
+#personaltraining .training-img-background-container .one-contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#personaltraining .training-img-background-container #one-img-background {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  position: absolute;
+}
+
+#personaltraining .training-img-background-container .img-profile {
+  max-width: 50vw;
+  border-radius: 0 50% 50% 0;
+}
+
+#personaltraining .OneOnOne-contact {
+  padding-top: 280px;
+}
+
+#personaltraining .OneOnOne-activities {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 4 / 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

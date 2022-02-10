@@ -293,5 +293,44 @@
 
   h4 {
     color: $blue;
+    font-size: $h4;
+  }
+
+  p {
+    font-size: $p;
+  }
+
+  .OneOnOne-gridbox {
+    display: grid;
+  }
+
+  .training-img-background-container {
+    grid-area: 1 / 1 / 4 / 2;
+
+    .one-contact-container {
+      display: flex;
+      //flex-direction: column;
+      justify-content: center;
+    }
+
+    #one-img-background {
+      justify-content: start;
+
+      position: absolute;
+    }
+    .img-profile {
+      max-width: 50vw;
+      border-radius: 0 50% 50% 0;
+    }
+  }
+
+  .OneOnOne-contact {
+    padding-top: 280px;
+  }
+
+  .OneOnOne-activities {
+    grid-area: 2 / 2 / 4 / 3;
+    display: flex;
+    justify-content: center;
   }
 }

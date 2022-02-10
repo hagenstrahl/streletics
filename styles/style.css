@@ -426,4 +426,9 @@ html {
 .lets-be-friends-container .friends-motivational-text {
   margin: 0 7vw;
 }
+
+.lets-be-friends-container .friends-motivational-text .friends-apostroph {
+  font-size: calc(2rem + 2vw);
+  font-family: "Passion One", cursive;
+}
 /*# sourceMappingURL=style.css.map */

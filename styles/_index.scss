@@ -361,5 +361,10 @@
 
   .friends-motivational-text {
     margin: 0 7vw;
+
+    .friends-apostroph {
+      font-size: $h2;
+      font-family: $passionone;
+    }
   }
 }

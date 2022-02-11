@@ -402,6 +402,7 @@ html {
   background: #d0e0ed;
   min-height: 50vh;
   width: 100vw;
+  padding-bottom: 5vh;
 }
 
 .lets-be-friends-container .friends-header {
@@ -415,35 +416,89 @@ html {
   font-weight: 500;
 }
 
-.lets-be-friends-container .friends-header p {
-  font-size: calc(1.15rem + 0.2vw);
+.lets-be-friends-container .friends-images-container {
+  width: 100%;
+  min-height: 40vh;
+  margin: 5vh 0 1vh;
+  padding: 0 4vw;
 }
 
-.lets-be-friends-container .friends-images {
-  height: 15vh;
+.lets-be-friends-container .friends-images-container .friends-images {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+}
+
+.lets-be-friends-container .friends-images-container .friends-images .friends-img img {
+  width: 100%;
+  border: 3px solid white;
+}
+
+.lets-be-friends-container .friends-images-container .friends-images .friends-img-one {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 3 / 2;
+  -webkit-transform: rotate(-2.5deg) translateX(15px);
+          transform: rotate(-2.5deg) translateX(15px);
+}
+
+.lets-be-friends-container .friends-images-container .friends-images .friends-img-two {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+  -webkit-transform: rotate(10deg) translateY(40px) translateX(-15px);
+          transform: rotate(10deg) translateY(40px) translateX(-15px);
+}
+
+.lets-be-friends-container .friends-images-container .friends-images .friends-img-three {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+  -webkit-transform: rotate(-10deg) translateY(20px) translateX(-15px);
+          transform: rotate(-10deg) translateY(20px) translateX(-15px);
 }
 
 .lets-be-friends-container .friends-motivational-text {
   margin: 0 7vw;
   padding: 0 20px;
-  position: relative;
 }
 
-.lets-be-friends-container .friends-motivational-text .friends-apostroph {
-  font-size: calc(3.5rem + 1vw);
+.lets-be-friends-container .friends-motivational-text .friends-p {
+  font-size: calc(1.15rem + 0.2vw);
+  position: relative;
+  text-align: center;
+}
+
+.lets-be-friends-container .friends-motivational-text .friends-p .friends-apostroph {
+  font-size: calc(4rem + 1vw);
   font-family: "Passion One", cursive;
   position: absolute;
 }
 
-.lets-be-friends-container .friends-motivational-text #friends-apostroph-left {
-  top: -45px;
+.lets-be-friends-container .friends-motivational-text .friends-p #friends-apostroph-left {
+  top: -60px;
   left: -10px;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
-.lets-be-friends-container .friends-motivational-text #friends-apostroph-right {
+.lets-be-friends-container .friends-motivational-text .friends-p #friends-apostroph-right {
   bottom: -45px;
-  right: 0;
+  right: -10px;
+}
+
+.lets-be-friends-container .friends-images {
+  height: 15vh;
 }
 /*# sourceMappingURL=style.css.map */

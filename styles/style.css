@@ -536,7 +536,16 @@ html {
   padding-top: 1vh;
 }
 
+.contact-svg-background {
+  min-width: 100vw;
+  min-height: 5vh;
+  z-index: -1;
+  -webkit-transform: translateY(35px);
+          transform: translateY(35px);
+}
+
 .contact-container {
+  position: relative;
   background: #701010;
   color: white;
   display: -webkit-box;

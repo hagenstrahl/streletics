@@ -455,7 +455,14 @@
 }
 
 // Kontakt / Contact Section
+.contact-svg-background {
+  min-width: 100vw;
+  min-height: 5vh;
+  z-index: -1;
+  transform: translateY(35px);
+}
 .contact-container {
+  position: relative;
   //min-height: 10vh;
   //min-width: 100vw;
   background: $winered;

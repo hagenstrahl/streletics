@@ -352,6 +352,10 @@
       font-family: $montserrat;
       font-weight: 500;
     }
+
+    p {
+      font-size: $p;
+    }
   }
 
   // Friends Images
@@ -423,4 +427,29 @@
   }
 }
 
-// apostroferna blev flyttade in till <p>, nu är deras absoluta position top:0; , vänster:0; -> <Body>
+// Schnupperwoche
+.schnupperwoche-container {
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  padding: 0 7vw;
+
+  .schnupperwoche-info {
+    height: 100%;
+    text-align: center;
+
+    h2 {
+      font-size: $schnupperwoche2;
+      font-family: $montserrat;
+      font-weight: 800;
+      color: $schnupperwochered;
+      text-shadow: 1px 1px 1px black;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: $p;
+      padding-top: 1vh;
+    }
+  }
+}

@@ -43,8 +43,7 @@ html {
   background: radial-gradient(circle, #572c2c 0%, #3f2020 50%, #3f2020 100%);
 }
 
-.nav .nav-container .nav-logo .nav-logo-img {
-  background: url("/Images/Streletics-Logo.svg") center no-repeat;
+.nav .nav-container .nav-logo img {
   width: 100%;
   height: 100%;
 }
@@ -344,7 +343,6 @@ html {
 }
 
 .training-container .training-img-background-container .img-background {
-  background: url("../Images/bryggan-tele-grey.jpg");
   width: 100vw;
   height: 180px;
   background-size: cover;
@@ -355,6 +353,30 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 100px;
+}
+
+.training-container .training-img-background-container #erwachsene-background {
+  background: url("../Images/erwachsene.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.training-container .training-img-background-container #jugendliche-background {
+  background: url("../Images/jugendliche.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.training-container .training-img-background-container #senior-background {
+  background: url("../Images/senioren.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.training-container .training-img-background-container #personaltraining-background {
+  background: url("../Images/personaltraining.jpg") center no-repeat;
+  background-size: cover;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  position: absolute;
 }
 
 .training-container .training-img-background-container .img-profile {
@@ -471,13 +493,6 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-#personaltraining .training-img-background-container #one-img-background {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-  position: absolute;
 }
 
 #personaltraining .training-img-background-container .img-profile {

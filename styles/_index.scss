@@ -25,9 +25,7 @@
         rgba(63, 32, 32, 1) 50%,
         rgba(63, 32, 32, 1) 100%
       );
-
-      .nav-logo-img {
-        background: url("/Images/Streletics-Logo.svg") center no-repeat;
+      img {
         width: 100%;
         height: 100%;
       }
@@ -301,13 +299,32 @@
 
   .training-img-background-container {
     .img-background {
-      background: url("../Images/bryggan-tele-grey.jpg");
+      //background: url("../Images/erwachsene.jpg");
       width: 100vw;
       height: 180px;
       background-size: cover;
       display: flex;
       justify-content: center;
       margin-bottom: 100px;
+    }
+    #erwachsene-background {
+      background: url("../Images/erwachsene.jpg") center no-repeat;
+      background-size: cover;
+    }
+    #jugendliche-background {
+      background: url("../Images/jugendliche.jpg") center no-repeat;
+      background-size: cover;
+    }
+    #senior-background {
+      background: url("../Images/senioren.jpg") center no-repeat;
+      background-size: cover;
+    }
+    #personaltraining-background {
+      background: url("../Images/personaltraining.jpg") center no-repeat;
+      background-size: cover;
+      justify-content: start;
+
+      position: absolute;
     }
     .img-profile {
       max-width: 230px;
@@ -411,11 +428,6 @@
       justify-content: center;
     }
 
-    #one-img-background {
-      justify-content: start;
-
-      position: absolute;
-    }
     .img-profile {
       max-width: 50vw;
       border-radius: 0 50% 50% 0;

@@ -170,9 +170,10 @@
       border: none;
       border-radius: 1ch;
       padding: 7px 40px;
-      h4 {
+      a {
         font-size: $p;
         color: white;
+        text-decoration: none;
       }
       &:hover {
         cursor: pointer;
@@ -585,10 +586,12 @@
     padding-top: 4vh;
     font-family: $montserrat;
 
-    h3 {
+    a {
       font-weight: 100;
       font-size: $p;
       letter-spacing: 1px;
+      color: white;
+      text-decoration: none;
     }
     .contact-info-one,
     .contact-info-two {
@@ -601,7 +604,7 @@
       justify-content: space-evenly;
       text-align: center;
 
-      h3 {
+      a {
         text-decoration: underline;
       }
     }

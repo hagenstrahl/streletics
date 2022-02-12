@@ -213,9 +213,10 @@ html {
   padding: 7px 40px;
 }
 
-.streletics-header .headlines #schnupperwoche-probieren h4 {
+.streletics-header .headlines #schnupperwoche-probieren a {
   font-size: calc(1.15rem + 0.2vw);
   color: white;
+  text-decoration: none;
 }
 
 .streletics-header .headlines #schnupperwoche-probieren:hover {
@@ -683,10 +684,12 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
-.contact-container .contact-information-container h3 {
+.contact-container .contact-information-container a {
   font-weight: 100;
   font-size: calc(1.15rem + 0.2vw);
   letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
 }
 
 .contact-container .contact-information-container .contact-info-one,
@@ -711,7 +714,7 @@ html {
   text-align: center;
 }
 
-.contact-container .contact-information-container .contact-info-two h3 {
+.contact-container .contact-information-container .contact-info-two a {
   text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */

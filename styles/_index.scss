@@ -308,25 +308,29 @@
       margin-bottom: 100px;
     }
     #erwachsene-background {
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
         url("../Images/erwachsene.jpg") center no-repeat;
       background-size: cover;
+      background-blend-mode: saturation;
     }
     #jugendliche-background {
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
         url("../Images/jugendliche.jpg") center no-repeat;
       background-size: cover;
+      background-blend-mode: saturation;
     }
     #senior-background {
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
         url("../Images/senioren.jpg") center no-repeat;
       background-size: cover;
+      background-blend-mode: saturation;
     }
     #personaltraining-background {
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
         url("../Images/personaltraining.jpg") center no-repeat;
       background-size: cover;
       justify-content: start;
+      background-blend-mode: saturation;
 
       position: absolute;
     }

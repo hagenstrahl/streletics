@@ -356,30 +356,34 @@ html {
 }
 
 .training-container .training-img-background-container #erwachsene-background {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../Images/erwachsene.jpg") center no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Images/erwachsene.jpg") center no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(black)), url("../Images/erwachsene.jpg") center no-repeat;
+  background: linear-gradient(black, black), url("../Images/erwachsene.jpg") center no-repeat;
   background-size: cover;
+  background-blend-mode: saturation;
 }
 
 .training-container .training-img-background-container #jugendliche-background {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../Images/jugendliche.jpg") center no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Images/jugendliche.jpg") center no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(black)), url("../Images/jugendliche.jpg") center no-repeat;
+  background: linear-gradient(black, black), url("../Images/jugendliche.jpg") center no-repeat;
   background-size: cover;
+  background-blend-mode: saturation;
 }
 
 .training-container .training-img-background-container #senior-background {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../Images/senioren.jpg") center no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Images/senioren.jpg") center no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(black)), url("../Images/senioren.jpg") center no-repeat;
+  background: linear-gradient(black, black), url("../Images/senioren.jpg") center no-repeat;
   background-size: cover;
+  background-blend-mode: saturation;
 }
 
 .training-container .training-img-background-container #personaltraining-background {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../Images/personaltraining.jpg") center no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Images/personaltraining.jpg") center no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(black)), url("../Images/personaltraining.jpg") center no-repeat;
+  background: linear-gradient(black, black), url("../Images/personaltraining.jpg") center no-repeat;
   background-size: cover;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+  background-blend-mode: saturation;
   position: absolute;
 }
 

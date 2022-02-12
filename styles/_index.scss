@@ -308,19 +308,23 @@
       margin-bottom: 100px;
     }
     #erwachsene-background {
-      background: url("../Images/erwachsene.jpg") center no-repeat;
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../Images/erwachsene.jpg") center no-repeat;
       background-size: cover;
     }
     #jugendliche-background {
-      background: url("../Images/jugendliche.jpg") center no-repeat;
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../Images/jugendliche.jpg") center no-repeat;
       background-size: cover;
     }
     #senior-background {
-      background: url("../Images/senioren.jpg") center no-repeat;
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../Images/senioren.jpg") center no-repeat;
       background-size: cover;
     }
     #personaltraining-background {
-      background: url("../Images/personaltraining.jpg") center no-repeat;
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../Images/personaltraining.jpg") center no-repeat;
       background-size: cover;
       justify-content: start;
 

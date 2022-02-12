@@ -19,6 +19,12 @@
     .nav-logo {
       width: 50px;
       height: 5vh;
+      background: radial-gradient(
+        circle,
+        rgb(87, 44, 44) 0%,
+        rgba(63, 32, 32, 1) 50%,
+        rgba(63, 32, 32, 1) 100%
+      );
 
       .nav-logo-img {
         background: url("/Images/Streletics-Logo.svg") center no-repeat;
@@ -50,6 +56,76 @@
       }
     }
   }
+}
+
+// Toggle navbar, Toggle Burger
+.toggle-navbar-container {
+  transform: translateX(100vw);
+  min-width: 100vw;
+  min-height: 100vh;
+  background: $navcolor;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+
+  .close-navbar {
+    position: absolute;
+    top: 5vh;
+    right: 9vw;
+    padding: 20px 10px;
+    .close-navbar-line-one,
+    .close-navbar-line-two {
+      width: 30px;
+      height: 1px;
+      border-radius: 2ch;
+      background-color: white;
+      transform-origin: center;
+    }
+
+    .close-navbar-line-one {
+      transform: rotate(45deg);
+    }
+    .close-navbar-line-two {
+      transform: rotate(-45deg);
+    }
+    &:hover {
+      .close-navbar-line-one {
+        transform: rotate(0deg);
+        background-color: $navcolor;
+        transition: all 0.3s ease;
+      }
+      .close-navbar-line-two {
+        transform: rotate(-0deg);
+        background-color: $navcolor;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+
+  .toggle-navbar-links {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    a {
+      color: white;
+      font-size: $h3;
+      text-decoration: none;
+      font-family: $montserrat;
+      text-transform: uppercase;
+    }
+  }
+  // .toggle-navbar-img {
+  //   height: 13vh;
+  //   text-align: center;
+  //   img {
+  //     //width: 50vw;
+  //     height: 100%;
+  //   }
+  // }
 }
 
 //Hero Image

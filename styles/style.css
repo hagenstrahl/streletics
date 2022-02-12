@@ -40,6 +40,7 @@ html {
 .nav .nav-container .nav-logo {
   width: 50px;
   height: 5vh;
+  background: radial-gradient(circle, #572c2c 0%, #3f2020 50%, #3f2020 100%);
 }
 
 .nav .nav-container .nav-logo .nav-logo-img {
@@ -80,6 +81,86 @@ html {
   background: white;
   border-radius: 1ch;
   margin: 2px 0;
+}
+
+.toggle-navbar-container {
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #3f202b;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.toggle-navbar-container .close-navbar {
+  position: absolute;
+  top: 5vh;
+  right: 9vw;
+  padding: 20px 10px;
+}
+
+.toggle-navbar-container .close-navbar .close-navbar-line-one,
+.toggle-navbar-container .close-navbar .close-navbar-line-two {
+  width: 30px;
+  height: 1px;
+  border-radius: 2ch;
+  background-color: white;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.toggle-navbar-container .close-navbar .close-navbar-line-one {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.toggle-navbar-container .close-navbar .close-navbar-line-two {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.toggle-navbar-container .close-navbar:hover .close-navbar-line-one {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  background-color: #3f202b;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.toggle-navbar-container .close-navbar:hover .close-navbar-line-two {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  background-color: #3f202b;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.toggle-navbar-container .toggle-navbar-links {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toggle-navbar-container .toggle-navbar-links a {
+  color: white;
+  font-size: calc(1.1rem + 1.5vw);
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 
 .streletics-header {

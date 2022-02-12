@@ -23,6 +23,7 @@
 
     <title>Streletics</title>
   </head>
+
   <body>
     <div class="nav">
       <div class="nav-container">
@@ -37,6 +38,23 @@
         </div>
       </div>
     </div>
+
+    <!-- Toggle navbar, mobile version -->
+    <div class="toggle-navbar-container">
+      <!-- Navbar "X", Close the mobile Navbar -->
+      <div class="close-navbar">
+        <div class="close-navbar-line-one"></div>
+        <div class="close-navbar-line-two"></div>
+      </div>
+      <div class="toggle-navbar-links">
+        <a href="#">HOME</a>
+        <a href="#training-info">Training Info</a>
+        <a href="#section-courses">Courses</a>
+        <a href="#schnupperwoche">Schnupperwoche</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+    </div>
+
     <div class="streletics-header">
       <div class="hero-image">
         <img src="/Images/bryggan-tele.jpg" alt="fitness neustrelitz" />
@@ -57,7 +75,7 @@
           personal here?” <br />
           - Jana"
         </p>
-        <div class="img-autograph">
+        <div class="img-autograph" id="training-info">
           <img src="./Images/look-legstretch.jpg" alt="training lehrer" />
           <h5>Jana Büttner</h5>
         </div>
@@ -108,7 +126,7 @@
     </div>
 
     <!-- section courses -->
-    <div class="section-courses">
+    <div class="section-courses" id="section-courses">
       <h2 class="courses-header">Courses</h2>
 
       <!-- Erwachsene -->
@@ -316,7 +334,7 @@
     </div>
 
     <!-- Kontakt / Contact -->
-    <div class="contact-svg-background">
+    <div class="contact-svg-background" id="contact">
       <img src="./Images/contact-curve-background.svg" alt="" />
     </div>
     <div class="contact-container">

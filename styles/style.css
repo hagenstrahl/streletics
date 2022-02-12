@@ -210,12 +210,17 @@ html {
   background-color: #eb2525;
   border: none;
   border-radius: 1ch;
-  padding: 4px 40px;
+  padding: 7px 40px;
 }
 
 .streletics-header .headlines #schnupperwoche-probieren h4 {
   font-size: calc(1.15rem + 0.2vw);
   color: white;
+}
+
+.streletics-header .headlines #schnupperwoche-probieren:hover {
+  cursor: pointer;
+  background-color: #f74a4a;
 }
 
 .personal-text-img-section {
@@ -251,6 +256,7 @@ html {
   text-transform: uppercase;
   font-weight: 600;
   text-align: center;
+  margin: 3vh 0;
 }
 
 .fitnessforyou-section .training-explanations {
@@ -258,7 +264,7 @@ html {
 }
 
 .fitnessforyou-section .training-explanations .traininginfo-container {
-  margin: 2vh 0;
+  margin: 4vh 0;
 }
 
 .fitnessforyou-section .training-explanations .traininginfo-container h3 {
@@ -271,6 +277,10 @@ html {
   font-size: calc(1.15rem + 0.2vw);
 }
 
+.fitnessforyou-section .training-explanations .HIIT {
+  margin-top: -1vh;
+}
+
 .training-is-fun-section {
   min-height: 40vh;
   text-align: center;
@@ -281,8 +291,16 @@ html {
   border: none;
   background: #a5b3be;
   padding: 5px 15px;
-  font-family: "Montserrat", sans-serif;
   margin-bottom: 12vh;
+}
+
+.training-is-fun-section .personaltraining-btn a {
+  color: black;
+  text-decoration: none;
+}
+
+.training-is-fun-section .personaltraining-btn:hover {
+  cursor: pointer;
 }
 
 .training-is-fun-section h4 {

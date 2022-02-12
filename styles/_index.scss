@@ -169,10 +169,14 @@
       background-color: $buttonred;
       border: none;
       border-radius: 1ch;
-      padding: 4px 40px;
+      padding: 7px 40px;
       h4 {
         font-size: $p;
         color: white;
+      }
+      &:hover {
+        cursor: pointer;
+        background-color: #f74a4a;
       }
     }
   }
@@ -213,12 +217,13 @@
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
+    margin: 3vh 0;
   }
 
   .training-explanations {
     margin: 0 7vw;
     .traininginfo-container {
-      margin: 2vh 0;
+      margin: 4vh 0;
 
       h3 {
         font-family: $montserrat;
@@ -228,6 +233,9 @@
       p {
         font-size: $p;
       }
+    }
+    .HIIT {
+      margin-top: -1vh;
     }
   }
 }
@@ -242,8 +250,15 @@
     border: none;
     background: $buttondarkblue;
     padding: 5px 15px;
-    font-family: $montserrat;
     margin-bottom: 12vh;
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    &:hover {
+      cursor: pointer;
+    }
   }
   h4 {
     font-family: $mrdehaviland;

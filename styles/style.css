@@ -444,6 +444,10 @@ html {
   margin-bottom: 5px;
 }
 
+#erwachsene {
+  background-color: #fff8f8;
+}
+
 #jugendliche {
   background-color: #f9fffe;
 }
@@ -765,14 +769,37 @@ html {
 
 @media screen and (min-width: 600px) {
   .nav-container,
-  .streletics-header,
-  .section-courses,
+  .personal-text-img-section,
+  .fitnessforyou-section,
   .friends-images-container {
     max-width: 800px;
     margin: auto;
   }
+  .streletics-header .hero-image {
+    height: 50vh;
+  }
+  .streletics-header .hero-image img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .streletics-header .headlines-container {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 0px;
+  }
+  .personal-text-img-section {
+    margin-top: 17vh !important;
+  }
+  .personal-text-img-section p {
+    max-width: 600px;
+    margin: auto;
+  }
+  .fitnessforyou-section .training-explanations {
+    margin: 0;
+  }
   .friends-images-container {
-    max-width: 650px;
     margin: 5vh auto !important;
   }
   .lets-be-friends-container .friends-motivational-text {
@@ -788,6 +815,26 @@ html {
   .lets-be-friends-container .friends-motivational-text .friends-p #friends-apostroph-right {
     bottom: -15px;
     right: 62px;
+  }
+  .section-courses {
+    background: none;
+  }
+  .section-courses .courses-header {
+    padding-bottom: 2vh;
+  }
+  .training-courses-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(500px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    max-width: 1300px;
+    margin: auto;
+  }
+  .training-courses-container .training-container .training-header {
+    text-align: center;
+  }
+  .training-courses-container .training-container .training-header h2 {
+    margin: 4vh 0 2vh;
   }
   .contact-container {
     margin-top: 9vh;

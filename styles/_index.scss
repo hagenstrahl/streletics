@@ -281,6 +281,7 @@
 
 .training-container {
   padding-bottom: 7vh;
+  //width: 100%;
   h2 {
     font-size: $h3;
     background-color: $winered;
@@ -381,6 +382,10 @@
   }
 }
 
+// Courses Erwachsene
+#erwachsene {
+  background-color: $coursered;
+}
 // Courses Jugendliche
 #jugendliche {
   background-color: $courseturkis;

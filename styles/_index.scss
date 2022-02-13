@@ -9,7 +9,7 @@
 
   .nav-container {
     //min-height: 100%;
-    min-width: 100vw;
+    width: 100vw;
     margin: auto;
     padding: 0 3vw;
     display: flex;
@@ -120,7 +120,7 @@
 
 //Hero Image
 .streletics-header {
-  min-width: 100vw;
+  width: 100vw;
   min-height: 100vh;
   background: $backgroundlightblue;
   padding-bottom: 5vh;
@@ -236,12 +236,16 @@
   min-height: 40vh;
   text-align: center;
   padding: 2vh 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .personaltraining-btn {
     border: none;
     background: $buttondarkblue;
     padding: 5px 15px;
     margin-bottom: 12vh;
+    display: inline;
 
     a {
       color: black;
@@ -290,9 +294,12 @@
   }
 
   .training-img-background-container {
+    position: relative;
+
     .img-background {
       //background: url("../Images/erwachsene.jpg");
-      width: 100vw;
+      width: 100%;
+      //<------------------------------------------------------------------------------------------------------------------
       height: 180px;
       background-size: cover;
       display: flex;
@@ -323,8 +330,9 @@
       background-size: cover;
       justify-content: start;
       background-blend-mode: saturation;
-
       position: absolute;
+      top: 0;
+      left: 0;
     }
     .img-profile {
       max-width: 230px;
@@ -420,26 +428,26 @@
   }
 
   .training-img-background-container {
-    grid-area: 1 / 1 / 4 / 2;
-
-    .one-contact-container {
-      display: flex;
-      //flex-direction: column;
-      justify-content: center;
-    }
+    grid-area: 1 / 1 / 4 / 3;
 
     .img-profile {
-      max-width: 50vw;
+      max-width: 50%;
       border-radius: 0 50% 50% 0;
     }
   }
 
+  .one-contact-container {
+    display: flex;
+    justify-content: center;
+  }
   .OneOnOne-contact {
-    padding-top: 280px;
+    padding-top: 295px;
+    //grid-area: 1 / 1 / 4 / 2;
   }
 
   .OneOnOne-activities {
-    grid-area: 2 / 2 / 4 / 3;
+    padding-top: 215px;
+    //grid-area: 2 / 2 / 4 / 3;
     display: flex;
     justify-content: center;
   }
@@ -542,7 +550,9 @@
   min-height: 30vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0 7vw;
+  margin-bottom: 4vh;
 
   .schnupperwoche-info {
     height: 100%;
@@ -558,6 +568,8 @@
     }
 
     p {
+      max-width: 400px;
+      margin: auto;
       font-size: $p;
       padding-top: 1vh;
     }
@@ -566,10 +578,13 @@
 
 // Kontakt / Contact Section
 .contact-svg-background {
+  position: absolute;
+  top: 0;
+  left: 0;
   min-width: 100vw;
   min-height: 5vh;
   z-index: -1;
-  transform: translateY(35px);
+  transform: translateY(-4vh);
 }
 .contact-container {
   position: relative;

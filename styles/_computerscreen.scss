@@ -1,0 +1,38 @@
+@media screen and (min-width: 600px) {
+  .nav-container,
+  .streletics-header,
+  .section-courses,
+  .friends-images-container {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .friends-images-container {
+    max-width: 650px;
+    margin: 5vh auto !important;
+  }
+  .lets-be-friends-container .friends-motivational-text {
+    max-width: 650px;
+    margin: auto;
+    .friends-p #friends-apostroph-left {
+      top: -12px;
+      left: 0px;
+      transform: rotate(0deg);
+    }
+    .friends-p #friends-apostroph-right {
+      bottom: -15px;
+      right: 62px;
+    }
+  }
+
+  .contact-container {
+    margin-top: 9vh;
+  }
+  .contact-svg-background {
+    transform: translateY(-9vh);
+  }
+
+  .toggle-navbar-container {
+    display: none;
+  }
+}

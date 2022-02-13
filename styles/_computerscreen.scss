@@ -23,6 +23,10 @@
   .streletics-header .headlines-container {
     align-items: flex-start;
     height: 0px;
+    transform: translateY(-47px);
+    h1 {
+      font-size: 70px;
+    }
   }
 
   // Motivational text under Streletics header

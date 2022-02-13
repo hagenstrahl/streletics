@@ -736,4 +736,8 @@ html {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
+.stop-scroll {
+  overflow-y: hidden;
+}
 /*# sourceMappingURL=style.css.map */

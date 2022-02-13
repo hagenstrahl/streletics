@@ -628,3 +628,7 @@
   transform: translateX(0vw);
   transition: all 0.3s ease;
 }
+
+.stop-scroll {
+  overflow-y: hidden;
+}

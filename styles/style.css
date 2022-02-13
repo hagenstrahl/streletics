@@ -83,8 +83,8 @@ html {
 }
 
 .toggle-navbar-container {
-  -webkit-transform: translateX(100vw);
-          transform: translateX(100vw);
+  -webkit-transform: translateX(95vw);
+          transform: translateX(95vw);
   min-width: 100vw;
   min-height: 100vh;
   background: #3f202b;
@@ -739,5 +739,12 @@ html {
 
 .contact-container .contact-information-container .contact-info-two a {
   text-decoration: underline;
+}
+
+.toggle-navbar-container-active {
+  -webkit-transform: translateX(0vw);
+          transform: translateX(0vw);
+  -webkit-transition: all 0.3 ease-in;
+  transition: all 0.3 ease-in;
 }
 /*# sourceMappingURL=style.css.map */

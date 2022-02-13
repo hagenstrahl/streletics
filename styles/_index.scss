@@ -58,7 +58,7 @@
 
 // Toggle navbar, Toggle Burger
 .toggle-navbar-container {
-  transform: translateX(100vw);
+  transform: translateX(95vw);
   min-width: 100vw;
   min-height: 100vh;
   background: $navcolor;
@@ -629,4 +629,10 @@
       }
     }
   }
+}
+
+// Javascript
+.toggle-navbar-container-active {
+  transform: translateX(0vw);
+  transition: all 0.3 ease-in;
 }

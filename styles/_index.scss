@@ -66,6 +66,7 @@
   top: 0;
   right: 0;
   z-index: 100;
+  transition: all 0.3s ease;
 
   .close-navbar {
     position: absolute;
@@ -87,18 +88,6 @@
     .close-navbar-line-two {
       transform: rotate(-45deg);
     }
-    &:hover {
-      .close-navbar-line-one {
-        transform: rotate(0deg);
-        background-color: $navcolor;
-        transition: all 0.3s ease;
-      }
-      .close-navbar-line-two {
-        transform: rotate(-0deg);
-        background-color: $navcolor;
-        transition: all 0.3s ease;
-      }
-    }
   }
 
   .toggle-navbar-links {
@@ -114,6 +103,9 @@
       text-decoration: none;
       font-family: $montserrat;
       text-transform: uppercase;
+      padding: 20px;
+      width: 100vw;
+      text-align: center;
     }
   }
   // .toggle-navbar-img {
@@ -634,5 +626,5 @@
 // Javascript
 .toggle-navbar-container-active {
   transform: translateX(0vw);
-  transition: all 0.3 ease-in;
+  transition: all 0.3s ease;
 }

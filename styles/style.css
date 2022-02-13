@@ -92,6 +92,8 @@ html {
   top: 0;
   right: 0;
   z-index: 100;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .toggle-navbar-container .close-navbar {
@@ -121,22 +123,6 @@ html {
           transform: rotate(-45deg);
 }
 
-.toggle-navbar-container .close-navbar:hover .close-navbar-line-one {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  background-color: #3f202b;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.toggle-navbar-container .close-navbar:hover .close-navbar-line-two {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  background-color: #3f202b;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
 .toggle-navbar-container .toggle-navbar-links {
   height: 100vh;
   display: -webkit-box;
@@ -160,6 +146,9 @@ html {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+  padding: 20px;
+  width: 100vw;
+  text-align: center;
 }
 
 .streletics-header {
@@ -744,7 +733,7 @@ html {
 .toggle-navbar-container-active {
   -webkit-transform: translateX(0vw);
           transform: translateX(0vw);
-  -webkit-transition: all 0.3 ease-in;
-  transition: all 0.3 ease-in;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 /*# sourceMappingURL=style.css.map */

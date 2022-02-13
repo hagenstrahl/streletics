@@ -195,13 +195,13 @@ html {
 }
 
 .streletics-header .headlines #schnupperwoche-probieren {
-  background-color: #eb2525;
   border: none;
-  border-radius: 1ch;
-  padding: 7px 40px;
 }
 
 .streletics-header .headlines #schnupperwoche-probieren a {
+  background-color: #eb2525;
+  border-radius: 1ch;
+  padding: 7px 40px;
   font-size: calc(1.15rem + 0.2vw);
   color: white;
   text-decoration: none;
@@ -288,13 +288,13 @@ html {
 
 .training-is-fun-section .personaltraining-btn {
   border: none;
-  background: #a5b3be;
-  padding: 5px 15px;
   margin-bottom: 12vh;
   display: inline;
 }
 
 .training-is-fun-section .personaltraining-btn a {
+  background: #a5b3be;
+  padding: 5px 15px;
   color: black;
   text-decoration: none;
 }

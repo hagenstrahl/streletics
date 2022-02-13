@@ -156,11 +156,11 @@
       margin: -12px 0 10px;
     }
     #schnupperwoche-probieren {
-      background-color: $buttonred;
       border: none;
-      border-radius: 1ch;
-      padding: 7px 40px;
       a {
+        background-color: $buttonred;
+        border-radius: 1ch;
+        padding: 7px 40px;
         font-size: $p;
         color: white;
         text-decoration: none;
@@ -242,12 +242,12 @@
 
   .personaltraining-btn {
     border: none;
-    background: $buttondarkblue;
-    padding: 5px 15px;
     margin-bottom: 12vh;
     display: inline;
 
     a {
+      background: $buttondarkblue;
+      padding: 5px 15px;
       color: black;
       text-decoration: none;
     }

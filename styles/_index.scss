@@ -532,7 +532,7 @@
 
   // The Motivational Text
   .friends-motivational-text {
-    margin: 0 7vw;
+    margin: 4vh 7vw;
     padding: 0 20px;
     .friends-p {
       font-size: $p;
@@ -542,16 +542,6 @@
       .friends-apostroph {
         font-size: $apostroph;
         font-family: $passionone;
-        position: absolute;
-      }
-      #friends-apostroph-left {
-        top: -47px;
-        left: -10px;
-        transform: rotate(180deg);
-      }
-      #friends-apostroph-right {
-        bottom: -45px;
-        right: -10px;
       }
     }
   }

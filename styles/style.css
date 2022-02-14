@@ -628,7 +628,7 @@ html {
 }
 
 .lets-be-friends-container .friends-motivational-text {
-  margin: 0 7vw;
+  margin: 4vh 7vw;
   padding: 0 20px;
 }
 
@@ -639,21 +639,8 @@ html {
 }
 
 .lets-be-friends-container .friends-motivational-text .friends-p .friends-apostroph {
-  font-size: calc(2rem + 1vw);
+  font-size: calc(1.2rem + 1vw);
   font-family: "Passion One", cursive;
-  position: absolute;
-}
-
-.lets-be-friends-container .friends-motivational-text .friends-p #friends-apostroph-left {
-  top: -47px;
-  left: -10px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.lets-be-friends-container .friends-motivational-text .friends-p #friends-apostroph-right {
-  bottom: -45px;
-  right: -10px;
 }
 
 .lets-be-friends-container .friends-images {
@@ -873,17 +860,7 @@ html {
   }
   .lets-be-friends-container .friends-motivational-text {
     max-width: 650px;
-    margin: auto;
-  }
-  .lets-be-friends-container .friends-motivational-text .friends-p #friends-apostroph-left {
-    top: -12px;
-    left: 0px;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  .lets-be-friends-container .friends-motivational-text .friends-p #friends-apostroph-right {
-    bottom: -15px;
-    right: 62px;
+    margin: 6vh auto 4vh;
   }
   .section-courses {
     background: none;
@@ -904,6 +881,22 @@ html {
   }
   .training-courses-container .training-container .training-header h2 {
     margin: 4vh 0 2vh;
+  }
+  .training-courses-container .training-container .course-description {
+    max-width: 65%;
+  }
+  .training-courses-container .training-container .course-schedule-container {
+    padding: 30px 50px 0;
+    min-height: 10vh;
+  }
+  .training-courses-container .training-container .course-schedule-container .course-activities-container {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .training-courses-container .training-container .course-schedule-container .course-activities-container:hover {
+    text-shadow: 0.8px 0px 0px black;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
   }
   .contact-container {
     margin-top: 9vh;

@@ -22,6 +22,10 @@ html {
           align-items: center;
 }
 
+.nav .nav-computer {
+  display: none;
+}
+
 .nav .nav-container {
   width: 100vw;
   margin: auto;
@@ -207,9 +211,9 @@ html {
   text-decoration: none;
 }
 
-.streletics-header .headlines #schnupperwoche-probieren:hover {
+.streletics-header .headlines #schnupperwoche-probieren a:hover {
   cursor: pointer;
-  background-color: #f74a4a;
+  background-color: #f91717;
 }
 
 .personal-text-img-section {
@@ -299,8 +303,9 @@ html {
   text-decoration: none;
 }
 
-.training-is-fun-section .personaltraining-btn:hover {
+.training-is-fun-section .personaltraining-btn a:hover {
   cursor: pointer;
+  background: #b4c3ce;
 }
 
 .training-is-fun-section h4 {
@@ -540,7 +545,16 @@ html {
 }
 
 .lets-be-friends-container .friends-header {
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .lets-be-friends-container .friends-header h2 {
@@ -550,8 +564,14 @@ html {
   font-weight: 500;
 }
 
-.lets-be-friends-container .friends-header p {
+.lets-be-friends-container .friends-header a {
   font-size: calc(1.15rem + 0.4vw);
+  color: black;
+  text-decoration: none;
+}
+
+.lets-be-friends-container .friends-header a:hover {
+  color: #701010;
 }
 
 .lets-be-friends-container .friends-images-container {
@@ -774,6 +794,50 @@ html {
   .friends-images-container {
     max-width: 800px;
     margin: auto;
+  }
+  .nav .nav-container {
+    display: none;
+  }
+  .nav .nav-computer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nav-computer-links-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .nav-computer-links-container .nav-logo {
+    width: 50px;
+    height: 10vh;
+    background: radial-gradient(circle, #4f2525 0%, #3f2020 50%, #3f2020 100%);
+  }
+  .nav-computer-links-container .nav-logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .nav-computer-links-container a {
+    color: #ededed;
+    font-size: calc(1.15rem + 0.4vw);
+    text-decoration: none;
+  }
+  .nav-computer-links-container a:hover {
+    color: white;
   }
   .streletics-header .hero-image {
     height: 50vh;

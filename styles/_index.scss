@@ -1,5 +1,8 @@
 // Navbar
 .nav {
+  .nav-computer {
+    display: none;
+  }
   min-height: 8vh;
   background-color: $navcolor;
   // #3a0203 dark red
@@ -164,10 +167,10 @@
         font-size: $p;
         color: white;
         text-decoration: none;
-      }
-      &:hover {
-        cursor: pointer;
-        background-color: #f74a4a;
+        &:hover {
+          cursor: pointer;
+          background-color: #f91717;
+        }
       }
     }
   }
@@ -250,9 +253,10 @@
       padding: 5px 15px;
       color: black;
       text-decoration: none;
-    }
-    &:hover {
-      cursor: pointer;
+      &:hover {
+        cursor: pointer;
+        background: #b4c3ce;
+      }
     }
   }
   h4 {
@@ -467,7 +471,9 @@
 
   // The Header "Lass uns Freunde sein!"
   .friends-header {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     h2 {
       font-size: $h2small;
@@ -476,8 +482,13 @@
       font-weight: 500;
     }
 
-    p {
+    a {
       font-size: $p;
+      color: black;
+      text-decoration: none;
+      &:hover {
+        color: $winered;
+      }
     }
   }
 

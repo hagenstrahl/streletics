@@ -159,6 +159,7 @@
       margin: -12px 0 10px;
     }
     #schnupperwoche-probieren {
+      display: none; // Remove button, maybe add it later <------------------------
       border: none;
       a {
         background-color: $buttonred;
@@ -171,6 +172,39 @@
           cursor: pointer;
           background-color: #f91717;
         }
+      }
+    }
+  }
+
+  // Schnupperwoche
+  .schnupperwoche-container {
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vh 7vw;
+    background: white;
+    margin: 30px 0 50px; // added
+
+    .schnupperwoche-info {
+      height: 100%;
+      text-align: center;
+
+      h2 {
+        font-size: $schnupperwoche2;
+        font-family: $montserrat;
+        font-weight: 800;
+        color: $schnupperwochered;
+        text-shadow: 1px 1px 1px black;
+        text-transform: uppercase;
+      }
+
+      p {
+        max-width: 400px;
+        margin: auto;
+        font-size: $pSchnupper;
+        padding-top: 1vh;
+        font-weight: 500;
       }
     }
   }
@@ -468,6 +502,7 @@
   min-height: 50vh;
   max-width: 100vw;
   padding-bottom: 5vh;
+  margin-bottom: 250px; // White empty space between lets-be-friends container and Contact section
 
   // The Header "Lass uns Freunde sein!"
   .friends-header {
@@ -551,37 +586,6 @@
   }
 }
 
-// Schnupperwoche
-.schnupperwoche-container {
-  min-height: 30vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 7vw;
-  margin-bottom: 4vh;
-
-  .schnupperwoche-info {
-    height: 100%;
-    text-align: center;
-
-    h2 {
-      font-size: $schnupperwoche2;
-      font-family: $montserrat;
-      font-weight: 800;
-      color: $schnupperwochered;
-      text-shadow: 1px 1px 1px black;
-      text-transform: uppercase;
-    }
-
-    p {
-      max-width: 400px;
-      margin: auto;
-      font-size: $p;
-      padding-top: 1vh;
-    }
-  }
-}
-
 // Kontakt / Contact Section
 .contact-svg-background {
   position: absolute;
@@ -615,7 +619,7 @@
 
   .contact-information-container {
     display: flex;
-    justify-content: space-around;
+    // justify-content: space-around; // Add this when fb & Insta accounts are created
     padding-top: 4vh;
     font-family: $montserrat;
 
@@ -634,11 +638,14 @@
       min-height: 10vh;
     }
     .contact-info-two {
-      justify-content: space-evenly;
-      text-align: center;
+      //justify-content: space-evenly; // Add this when fb & Insta accounts are created
+      //text-align: center; // Add this when fb & Insta accounts are created
 
       a {
         text-decoration: underline;
+      }
+      a:first-child {
+        text-decoration: none;
       }
     }
   }

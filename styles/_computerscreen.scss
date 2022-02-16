@@ -58,6 +58,12 @@
         object-fit: cover;
       }
     }
+
+    // Schnupperwoche
+    .schnupperwoche-container {
+      min-height: 30vh;
+      margin: 150px 0 50px;
+    }
   }
 
   .streletics-header .headlines-container {
@@ -71,7 +77,7 @@
 
   // Motivational text under Streletics header
   .personal-text-img-section {
-    margin-top: 17vh !important;
+    // margin-top: 17vh !important; // Removed, make white-space proper between Schnupperwoche and Fitness For You Section
 
     p {
       max-width: 600px;
@@ -104,7 +110,7 @@
   .training-courses-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
 
     .training-container .training-header {

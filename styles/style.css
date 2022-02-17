@@ -242,7 +242,7 @@ html {
   font-size: calc(1.8rem + 2vw);
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  color: #a42f2f;
+  color: #c2961d;
   text-shadow: 1px 1px 1px black;
   text-transform: uppercase;
 }
@@ -284,7 +284,7 @@ html {
 
 .fitnessforyou-section h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: calc(1.1rem + 0.5vw);
+  font-size: calc(1.5rem + 2vw);
   text-transform: uppercase;
   font-weight: 600;
   text-align: center;
@@ -581,7 +581,6 @@ html {
   min-height: 50vh;
   max-width: 100vw;
   padding-bottom: 5vh;
-  margin-bottom: 250px;
 }
 
 .lets-be-friends-container .friends-header {
@@ -687,13 +686,56 @@ html {
   height: 15vh;
 }
 
+.fitness-dance-video-container {
+  width: 100vw;
+  min-height: 60vh;
+  max-height: 30vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../Images/erwachsene.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../Images/erwachsene.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fitness-dance-video-container .fitness-dance-header {
+  text-align: center;
+}
+
+.fitness-dance-video-container .fitness-dance-header h2 {
+  text-transform: uppercase;
+  color: white;
+  font-size: calc(2rem + 2vw);
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2vh;
+}
+
+.fitness-dance-video-container .fitness-dance-header a {
+  color: black;
+  background: #03fcec;
+  border-radius: 2ch;
+  border: none;
+  font-size: calc(1.1rem + 0.5vw);
+  font-family: "Montserrat", sans-serif;
+  padding: 1vh 6vw;
+  text-decoration: none;
+}
+
 .contact-svg-background {
   position: absolute;
   top: 0;
   right: 0;
   min-width: 100vw;
   min-height: 5vh;
-  z-index: -1;
+  z-index: 1;
   -webkit-transform: translateY(-4vh);
           transform: translateY(-4vh);
 }
@@ -715,6 +757,10 @@ html {
   padding: 4vh 7vw 8vh;
 }
 
+.contact-container .contact-header {
+  z-index: 2;
+}
+
 .contact-container .contact-header h2 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -733,6 +779,7 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  z-index: 2;
 }
 
 .contact-container .contact-information-container a {
@@ -883,11 +930,14 @@ html {
         -ms-flex-align: start;
             align-items: flex-start;
     height: 0px;
-    -webkit-transform: translateY(-47px);
-            transform: translateY(-47px);
+    -webkit-transform: translateY(-72px);
+            transform: translateY(-72px);
   }
   .streletics-header .headlines-container h1 {
-    font-size: 70px;
+    font-size: calc(3.7rem + 4vw);
+  }
+  .streletics-header .headlines-container h2 {
+    font-size: calc(1.5rem + 0.2vw);
   }
   .personal-text-img-section p {
     max-width: 600px;
@@ -938,9 +988,6 @@ html {
     text-shadow: 0.8px 0px 0px black;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-  }
-  .contact-container {
-    margin-top: 9vh;
   }
   .contact-container .contact-information-container {
     -webkit-box-orient: horizontal;

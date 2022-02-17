@@ -69,9 +69,12 @@
   .streletics-header .headlines-container {
     align-items: flex-start;
     height: 0px;
-    transform: translateY(-47px);
+    transform: translateY(-72px);
     h1 {
-      font-size: 70px;
+      font-size: $h1;
+    }
+    h2 {
+      font-size: $h4;
     }
   }
 
@@ -139,7 +142,7 @@
 
   // KONTAKT SECTION
   .contact-container {
-    margin-top: 9vh;
+    // margin-top: 9vh;
 
     .contact-information-container {
       flex-direction: row;

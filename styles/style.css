@@ -729,6 +729,10 @@ html {
   display: flex;
   padding-top: 4vh;
   font-family: "Montserrat", sans-serif;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .contact-container .contact-information-container a {
@@ -748,18 +752,55 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   min-height: 10vh;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contact-container .contact-information-container .contact-info-one a,
+.contact-container .contact-information-container .contact-info-two a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-container .contact-information-container .contact-info-one a span,
+.contact-container .contact-information-container .contact-info-two a span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 7px 3px 0;
+}
+
+.contact-container .contact-information-container .contact-info-one a img,
+.contact-container .contact-information-container .contact-info-two a img {
+  width: 25px;
+  height: 25px;
+}
+
+.contact-container .contact-information-container .contact-info-two {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .contact-container .contact-information-container .contact-info-two a {
-  text-decoration: underline;
+  text-decoration: none;
+  padding: 5px 0;
 }
 
-.contact-container .contact-information-container .contact-info-two a:first-child {
-  text-decoration: none;
+.contact-container .contact-information-container .contact-info-two a:nth-child(2) {
+  text-decoration: underline;
 }
 
 .toggle-navbar-container-active {
@@ -900,6 +941,15 @@ html {
   }
   .contact-container {
     margin-top: 9vh;
+  }
+  .contact-container .contact-information-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   .contact-svg-background {
     -webkit-transform: translateY(-9vh);

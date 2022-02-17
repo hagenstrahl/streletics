@@ -140,6 +140,11 @@
   // KONTAKT SECTION
   .contact-container {
     margin-top: 9vh;
+
+    .contact-information-container {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
   }
   .contact-svg-background {
     transform: translateY(-9vh);

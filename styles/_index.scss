@@ -619,9 +619,11 @@
 
   .contact-information-container {
     display: flex;
-    // justify-content: space-around; // Add this when fb & Insta accounts are created
+    // justify-content: space-around; // Add @ computer view ??
     padding-top: 4vh;
     font-family: $montserrat;
+    flex-direction: column; // remove @ computer view
+    // align-items: center; // remove @ computer view
 
     a {
       font-weight: 100;
@@ -634,18 +636,33 @@
     .contact-info-two {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: space-evenly; // change @ computer view to space-between
       min-height: 10vh;
+      align-items: flex-start;
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+          display: flex;
+          margin: 0 7px 3px 0;
+        }
+        img {
+          width: 25px;
+          height: 25px;
+        }
+      }
     }
     .contact-info-two {
-      //justify-content: space-evenly; // Add this when fb & Insta accounts are created
-      //text-align: center; // Add this when fb & Insta accounts are created
+      justify-content: space-evenly; // Add this when fb & Insta accounts are created
+      //align-items: center; // add @ computer view
 
       a {
-        text-decoration: underline;
-      }
-      a:first-child {
         text-decoration: none;
+        padding: 5px 0;
+      }
+      a:nth-child(2) {
+        text-decoration: underline;
       }
     }
   }

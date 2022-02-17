@@ -291,8 +291,7 @@ html {
 }
 
 .about-me-section {
-  margin: 5vh 7vw 8vh;
-  padding: 0 7vw;
+  padding: 5vh 7vw 8vh;
 }
 
 .about-me-section h2 {
@@ -977,18 +976,12 @@ html {
     margin: auto;
     padding: 0 7vw;
   }
-  .personal-text-img-section .about-me-section p {
-    margin: 0 0 0 7vw;
-  }
   .personal-text-img-section .img-autograph img {
     max-width: 250px;
   }
   .personal-text-img-section .img-autograph h5 {
     -webkit-transform: translateY(-50px) translateX(215px) rotate(-45deg);
             transform: translateY(-50px) translateX(215px) rotate(-45deg);
-  }
-  .personal-text-img-section .about-me-section p {
-    margin: 2vh 7vw 0;
   }
   .personal-text-img-section .motivational-text-beginning {
     max-width: 600px;

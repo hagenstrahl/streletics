@@ -81,11 +81,6 @@
     margin: auto;
     padding: 0 7vw;
 
-    //.img-autograph,
-    .about-me-section p {
-      margin: 0 0 0 7vw;
-    }
-
     .img-autograph {
       img {
         max-width: 250px;
@@ -93,10 +88,6 @@
       h5 {
         transform: translateY(-50px) translateX(215px) rotate(-45deg);
       }
-    }
-
-    .about-me-section p {
-      margin: 2vh 7vw 0;
     }
 
     .motivational-text-beginning {

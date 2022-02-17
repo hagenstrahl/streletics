@@ -44,8 +44,7 @@ html {
 
 .nav .nav-container .nav-logo {
   width: 60px;
-  height: 10vh;
-  background: radial-gradient(circle, #572c2c 0%, #3f2020 50%, #3f2020 100%);
+  height: 8vh;
 }
 
 .nav .nav-container .nav-logo img {

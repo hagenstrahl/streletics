@@ -11,6 +11,7 @@ html {
 }
 
 .nav {
+  padding: 1vh 0;
   min-height: 8vh;
   background-color: #3f202b;
   max-width: 100vw;
@@ -42,8 +43,8 @@ html {
 }
 
 .nav .nav-container .nav-logo {
-  width: 50px;
-  height: 5vh;
+  width: 60px;
+  height: 10vh;
   background: radial-gradient(circle, #572c2c 0%, #3f2020 50%, #3f2020 100%);
 }
 
@@ -257,6 +258,13 @@ html {
 }
 
 .personal-text-img-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 0 7vw 5vh;
 }
 
@@ -281,6 +289,25 @@ html {
   -webkit-transform-origin: left;
           transform-origin: left;
   position: absolute;
+}
+
+.about-me-section {
+  margin: 5vh 7vw 8vh;
+  padding: 0 7vw;
+}
+
+.about-me-section h2 {
+  font-size: calc(1.5rem + 2vw);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about-me-section p {
+  font-size: calc(1.15rem + 0.4vw);
+  text-align: start;
+  margin-top: 1vh;
 }
 
 .fitnessforyou-section h2 {
@@ -866,8 +893,9 @@ html {
   .nav-container,
   .personal-text-img-section,
   .fitnessforyou-section,
+  .about-me-section,
   .friends-images-container {
-    max-width: 800px;
+    max-width: 1400px;
     margin: auto;
   }
   .nav .nav-container {
@@ -898,9 +926,8 @@ html {
     width: 100%;
   }
   .nav-computer-links-container .nav-logo {
-    width: 50px;
+    width: 70px;
     height: 10vh;
-    background: radial-gradient(circle, #4f2525 0%, #3f2020 50%, #3f2020 100%);
   }
   .nav-computer-links-container .nav-logo img {
     width: 100%;
@@ -940,12 +967,33 @@ html {
   .streletics-header .headlines-container h2 {
     font-size: calc(1.2rem + 1.5vw);
   }
-  .personal-text-img-section .img-autograph {
-    margin: 0 7vw;
-  }
-  .personal-text-img-section p {
-    max-width: 600px;
+  .personal-text-img-section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: auto;
+    padding: 0 7vw;
+  }
+  .personal-text-img-section .about-me-section p {
+    margin: 0 0 0 7vw;
+  }
+  .personal-text-img-section .img-autograph img {
+    max-width: 250px;
+  }
+  .personal-text-img-section .img-autograph h5 {
+    -webkit-transform: translateY(-50px) translateX(215px) rotate(-45deg);
+            transform: translateY(-50px) translateX(215px) rotate(-45deg);
+  }
+  .personal-text-img-section .about-me-section p {
+    margin: 2vh 7vw 0;
+  }
+  .personal-text-img-section .motivational-text-beginning {
+    max-width: 600px;
+    margin: 10vh 0 0 7vw;
   }
   .friends-images-container {
     margin: 5vh auto !important;
@@ -982,6 +1030,7 @@ html {
     min-height: 10vh;
   }
   .training-courses-container .training-container .course-schedule-container .course-activities-container {
+    padding-left: 20px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }

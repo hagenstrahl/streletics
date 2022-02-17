@@ -1,5 +1,6 @@
 // Navbar
 .nav {
+  padding: 1vh 0;
   .nav-computer {
     display: none;
   }
@@ -20,8 +21,8 @@
     align-items: center;
 
     .nav-logo {
-      width: 50px;
-      height: 5vh;
+      width: 60px;
+      height: 10vh;
       background: radial-gradient(
         circle,
         rgb(87, 44, 44) 0%,
@@ -206,6 +207,8 @@
 
 // Personal text and image with an autograph
 .personal-text-img-section {
+  display: flex;
+  flex-direction: column;
   margin: 0 7vw 5vh;
 
   p {
@@ -231,6 +234,22 @@
   }
 }
 
+.about-me-section {
+  margin: 5vh 7vw 8vh;
+  padding: 0 7vw;
+  h2 {
+    font-size: $h2small;
+    font-family: $montserrat;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+  }
+  p {
+    font-size: $p;
+    text-align: start;
+    margin-top: 1vh;
+  }
+}
 // Fitness For You and training explanation section, with light blue background
 .fitnessforyou-section {
   h2 {

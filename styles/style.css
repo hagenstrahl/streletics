@@ -193,6 +193,7 @@ html {
 }
 
 .streletics-header .headlines h2 {
+  text-align: center;
   font-size: 20px;
   color: black;
   margin: -12px 0 10px;
@@ -937,14 +938,14 @@ html {
     font-size: calc(3.7rem + 4vw);
   }
   .streletics-header .headlines-container h2 {
-    font-size: calc(1.5rem + 0.2vw);
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  .personal-text-img-section .img-autograph {
+    margin: 0 7vw;
   }
   .personal-text-img-section p {
     max-width: 600px;
     margin: auto;
-  }
-  .fitnessforyou-section .training-explanations {
-    margin: 0;
   }
   .friends-images-container {
     margin: 5vh auto !important;
@@ -1004,6 +1005,15 @@ html {
   }
   .toggle-navbar-container {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .streletics-header .hero-image {
+    height: 62vh;
+  }
+  .streletics-header .schnupperwoche-container {
+    margin: 200px 0px 50px;
   }
 }
 /*# sourceMappingURL=style.css.map */

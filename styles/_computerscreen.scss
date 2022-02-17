@@ -74,13 +74,15 @@
       font-size: $h1;
     }
     h2 {
-      font-size: $h4;
+      font-size: $h2header;
     }
   }
 
   // Motivational text under Streletics header
   .personal-text-img-section {
-    // margin-top: 17vh !important; // Removed, make white-space proper between Schnupperwoche and Fitness For You Section
+    .img-autograph {
+      margin: 0 7vw;
+    }
 
     p {
       max-width: 600px;
@@ -89,9 +91,9 @@
   }
 
   // FITNESS FOR YOU
-  .fitnessforyou-section .training-explanations {
-    margin: 0;
-  }
+  // .fitnessforyou-section .training-explanations {
+  //   margin: 0;
+  // }
 
   // Lass Uns Freunde Sein!
   .friends-images-container {
@@ -156,5 +158,16 @@
   // Mobile Navbar
   .toggle-navbar-container {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .streletics-header {
+    .hero-image {
+      height: 62vh;
+    }
+    .schnupperwoche-container {
+      margin: 200px 0px 50px;
+    }
   }
 }

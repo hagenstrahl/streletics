@@ -4,7 +4,7 @@
   .fitnessforyou-section,
   .about-me-section,
   .friends-images-container {
-    max-width: 1400px;
+    max-width: 900px;
     margin: auto;
   }
 
@@ -40,6 +40,9 @@
       text-decoration: none;
       &:hover {
         color: white;
+      }
+      &:nth-child(5) {
+        color: #ff4c4c;
       }
     }
   }
@@ -78,7 +81,7 @@
   .personal-text-img-section {
     flex-direction: row-reverse;
     justify-content: center;
-    margin: auto;
+    margin: 0 auto 5vh;
     padding: 0 7vw;
 
     .img-autograph {
@@ -104,6 +107,7 @@
   // Lass Uns Freunde Sein!
   .friends-images-container {
     margin: 5vh auto !important;
+    max-width: 900px;
   }
   .lets-be-friends-container .friends-motivational-text {
     max-width: 650px;

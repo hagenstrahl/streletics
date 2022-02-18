@@ -104,6 +104,10 @@
       padding: 20px;
       width: 100vw;
       text-align: center;
+
+      &:nth-child(4) {
+        color: #ff4c4c;
+      }
     }
   }
 }
@@ -189,11 +193,24 @@
       }
 
       p {
-        max-width: 400px;
         margin: auto;
-        font-size: $pSchnupper;
-        padding-top: 1vh;
+        font-size: $p;
+        padding: 1vh 0 2vh;
         font-weight: 500;
+      }
+
+      a {
+        color: white;
+        background: $buttonred;
+        border-radius: 2ch;
+        border: none;
+        font-size: $h3;
+        font-family: $montserrat;
+        padding: 1vh 6vw;
+        text-decoration: none;
+        &:hover {
+          background: #ff2a2a;
+        }
       }
     }
   }
@@ -357,18 +374,21 @@
         url("../Images/erwachsene.jpg") center no-repeat;
       background-size: cover;
       background-blend-mode: saturation;
+      background-position-y: 40%;
     }
     #jugendliche-background {
       background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
         url("../Images/jugendliche.jpg") center no-repeat;
       background-size: cover;
       background-blend-mode: saturation;
+      background-position-y: 40%;
     }
     #senior-background {
       background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
         url("../Images/senioren.jpg") center no-repeat;
       background-size: cover;
       background-blend-mode: saturation;
+      background-position-y: 40%;
     }
     #personaltraining-background {
       background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
@@ -379,6 +399,7 @@
       position: absolute;
       top: 0;
       left: 0;
+      background-position-y: 40%;
     }
     .img-profile {
       max-width: 230px;
@@ -393,7 +414,7 @@
 // Intro-Text under the profileimage of courses
 .course-description {
   width: 80vw;
-  max-width: 250px;
+  max-width: 350px;
   margin: auto;
   h4 {
     font-size: $h4;
@@ -424,6 +445,13 @@
     justify-content: space-between;
     padding-left: 3vw;
     margin-bottom: 5px;
+
+    .course-times {
+      p {
+        min-width: 80px;
+        text-align: end;
+      }
+    }
   }
 }
 
@@ -629,6 +657,9 @@
       font-family: $montserrat;
       padding: 1vh 6vw;
       text-decoration: none;
+      &:hover {
+        background: #68fff5;
+      }
     }
   }
 }

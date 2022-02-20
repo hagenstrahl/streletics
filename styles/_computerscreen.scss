@@ -42,7 +42,7 @@
         color: white;
       }
       &:nth-child(3) {
-        color: #ff4c4c;
+        color: $erstetraining;
       }
     }
   }
@@ -94,8 +94,8 @@
     }
 
     .motivational-text-beginning {
-      max-width: 600px; //<------------------------
-      margin: 10vh 0 0 10vw;
+      //max-width: 600px; //<------------------------
+      margin: 5vh 0 0 10vw;
     }
   }
 
@@ -170,6 +170,12 @@
   // Mobile Navbar
   .toggle-navbar-container {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .personal-text-img-section {
+    padding: 0;
   }
 }
 

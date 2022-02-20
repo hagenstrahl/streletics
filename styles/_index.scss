@@ -106,7 +106,7 @@
       text-align: center;
 
       &:nth-child(2) {
-        color: #ff4c4c;
+        color: $erstetraining;
       }
     }
   }
@@ -604,7 +604,7 @@
 
 // fitness-dance-video-container
 .fitness-dance-video-container {
-  width: 100vw;
+  max-width: 100vw;
   min-height: 60vh;
   max-height: 30vh;
 

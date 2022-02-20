@@ -36,12 +36,12 @@
     }
     a {
       color: rgb(237, 237, 237);
-      font-size: $p;
+      font-size: $navtext;
       text-decoration: none;
       &:hover {
         color: white;
       }
-      &:nth-child(5) {
+      &:nth-child(3) {
         color: #ff4c4c;
       }
     }
@@ -95,7 +95,7 @@
 
     .motivational-text-beginning {
       max-width: 600px; //<------------------------
-      margin: 10vh 0 0 7vw;
+      margin: 10vh 0 0 10vw;
     }
   }
 
@@ -135,10 +135,6 @@
       }
     }
 
-    .training-container .course-description {
-      max-width: 65%;
-    }
-
     .training-container .course-schedule-container {
       padding: 30px 50px 0;
       min-height: 10vh;
@@ -150,6 +146,11 @@
         }
         transition: all 0.3s ease;
       }
+    }
+
+    // 1:1Personaltraining/Coaching
+    #personaltraining .OneOnOne-activities {
+      padding: 280px 50px 0;
     }
   }
 

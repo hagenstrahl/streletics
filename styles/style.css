@@ -205,25 +205,6 @@ html {
   margin: -12px 0 10px;
 }
 
-.streletics-header .headlines #schnupperwoche-probieren {
-  display: none;
-  border: none;
-}
-
-.streletics-header .headlines #schnupperwoche-probieren a {
-  background-color: #eb2525;
-  border-radius: 1ch;
-  padding: 7px 40px;
-  font-size: calc(1.2rem + 0.5vw);
-  color: white;
-  text-decoration: none;
-}
-
-.streletics-header .headlines #schnupperwoche-probieren a:hover {
-  cursor: pointer;
-  background-color: #f91717;
-}
-
 .streletics-header .schnupperwoche-container {
   min-height: 20vh;
   display: -webkit-box;

@@ -379,14 +379,19 @@
     color: $winered;
     margin: 3px 0;
   }
-  // p {
-  //   font-size: $p;
-  // }
-  a,
   p {
+    font-size: $p;
+  }
+  a {
     color: black;
     font-size: $p;
-    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-thickness: 1.2px;
+
+    &:hover {
+      color: #3d8bc4;
+    }
   }
 
   .course-activities-container {

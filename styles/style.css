@@ -462,11 +462,22 @@ html {
   margin: 3px 0;
 }
 
-.course-schedule-container a,
 .course-schedule-container p {
+  font-size: calc(1.2rem + 0.5vw);
+}
+
+.course-schedule-container a {
   color: black;
   font-size: calc(1.2rem + 0.5vw);
-  text-decoration: none;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+  text-decoration-thickness: 1.2px;
+}
+
+.course-schedule-container a:hover {
+  color: #3d8bc4;
 }
 
 .course-schedule-container .course-activities-container {
@@ -996,7 +1007,7 @@ html {
     transition: all 0.3s ease;
   }
   .training-courses-container .training-container .course-schedule-container .course-activities-container:hover {
-    text-shadow: 0.8px 0px 0px black;
+    text-shadow: 0.4px 0px 0px #0c0c0c;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }

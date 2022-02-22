@@ -462,8 +462,11 @@ html {
   margin: 3px 0;
 }
 
+.course-schedule-container a,
 .course-schedule-container p {
+  color: black;
   font-size: calc(1.2rem + 0.5vw);
+  text-decoration: none;
 }
 
 .course-schedule-container .course-activities-container {

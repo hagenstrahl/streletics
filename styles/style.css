@@ -615,8 +615,8 @@ html {
 }
 
 .lets-be-friends-container .friends-header a .friends-socialmedia-img img {
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
   margin: 3px 7px 3px 0;
 }
 
@@ -1082,6 +1082,11 @@ html {
   .lets-be-friends-container .friends-motivational-text {
     max-width: 650px;
     margin: 6vh auto 4vh;
+  }
+  .lets-be-friends-container .friends-header a .friends-socialmedia-img img {
+    width: 35px;
+    height: 35px;
+    margin: 3px 7px 3px 0;
   }
   .section-courses {
     background: none;

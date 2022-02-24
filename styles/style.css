@@ -788,12 +788,14 @@ html {
   z-index: 2;
 }
 
-.contact-container .contact-information-container a {
+.contact-container .contact-information-container a,
+.contact-container .contact-information-container p {
   font-weight: 100;
   font-size: calc(1.2rem + 0.5vw);
   letter-spacing: 1px;
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .contact-container .contact-information-container .contact-info-one,
@@ -856,6 +858,81 @@ html {
   text-decoration: underline;
 }
 
+.contact-container {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.contact-container .impressum-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: white;
+  z-index: 20;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  opacity: 0%;
+  width: 100%;
+  -webkit-transform: translateX(105vw);
+          transform: translateX(105vw);
+}
+
+.contact-container .impressum-container .impressum-close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.contact-container .impressum-container .impressum-close .impessum-line-one,
+.contact-container .impressum-container .impressum-close .impessum-line-two {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2.5px;
+  background: black;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-radius: 2ch;
+}
+
+.contact-container .impressum-container .impressum-close .impessum-line-two {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background: black;
+}
+
+.contact-container .impressum-container .impressum {
+  color: black;
+  padding: 40px 7vw;
+}
+
+.contact-container .impressum-container .impressum h4 {
+  font-size: calc(1.5rem + 2vw);
+}
+
+.contact-container .impressum-container .impressum h5 {
+  font-size: calc(1.5rem + 0.2vw);
+}
+
+.contact-container .impressum-container .impressum .contact {
+  border-top: 0.5px solid black;
+  padding: 5px 0;
+}
+
+.contact-container .impressum-container .impressum .contact p {
+  font-size: calc(1.2rem + 0.5vw);
+}
+
 .toggle-navbar-container-active {
   -webkit-transform: translateX(0vw);
           transform: translateX(0vw);
@@ -865,6 +942,17 @@ html {
 
 .stop-scroll {
   overflow-y: hidden;
+}
+
+.impressum-active {
+  position: relative;
+  -webkit-transform: translateX(0) !important;
+          transform: translateX(0) !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background: white;
+  z-index: 20;
+  opacity: 100% !important;
 }
 
 @media screen and (min-width: 600px) {

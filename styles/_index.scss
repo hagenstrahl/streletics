@@ -649,12 +649,14 @@
     flex-direction: column;
     z-index: 2;
 
-    a {
+    a,
+    p {
       font-weight: 100;
       font-size: $p;
       letter-spacing: 1px;
       color: white;
       text-decoration: none;
+      cursor: pointer;
     }
     .contact-info-one,
     .contact-info-two {
@@ -691,6 +693,70 @@
   }
 }
 
+// Impressum
+.contact-container {
+  position: relative;
+  overflow-x: hidden;
+  .impressum-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: white;
+    z-index: 20;
+    transition: all 0.3s ease;
+    opacity: 0%;
+    width: 100%;
+    transform: translateX(105vw);
+
+    .impressum-close {
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      width: 30px;
+      height: 30px;
+      //border: 1px solid black;
+      cursor: pointer;
+
+      .impessum-line-one,
+      .impessum-line-two {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 2.5px;
+        background: black;
+        transform: rotate(45deg);
+        border-radius: 2ch;
+      }
+      .impessum-line-two {
+        transform: rotate(-45deg);
+        background: rgb(0, 0, 0);
+      }
+    }
+
+    .impressum {
+      color: black;
+      padding: 40px 7vw;
+      h4 {
+        font-size: $h2small;
+      }
+      h5 {
+        font-size: $h4;
+      }
+
+      .contact {
+        border-top: 0.5px solid black;
+        padding: 5px 0;
+        p {
+          font-size: $p;
+        }
+      }
+    }
+  }
+}
+
 // Javascript
 .toggle-navbar-container-active {
   transform: translateX(0vw);
@@ -699,4 +765,13 @@
 
 .stop-scroll {
   overflow-y: hidden;
+}
+
+.impressum-active {
+  position: relative;
+  transform: translateX(0) !important;
+  transition: all 0.3s ease;
+  background: white;
+  z-index: 20;
+  opacity: 100% !important;
 }

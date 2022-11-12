@@ -224,6 +224,9 @@ html {
 .streletics-header .schnupperwoche-container .schnupperwoche-info {
   height: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .streletics-header .schnupperwoche-container .schnupperwoche-info h2 {
@@ -235,13 +238,6 @@ html {
   text-transform: uppercase;
 }
 
-.streletics-header .schnupperwoche-container .schnupperwoche-info p {
-  margin: auto;
-  font-size: calc(1.2rem + 0.5vw);
-  padding: 1vh 0 2vh;
-  font-weight: 500;
-}
-
 .streletics-header .schnupperwoche-container .schnupperwoche-info a {
   color: white;
   background: #eb2525;
@@ -251,6 +247,7 @@ html {
   font-family: "Montserrat", sans-serif;
   padding: 1vh 6vw;
   text-decoration: none;
+  margin: auto;
 }
 
 .streletics-header .schnupperwoche-container .schnupperwoche-info a:hover {

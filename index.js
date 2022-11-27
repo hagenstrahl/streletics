@@ -22,3 +22,17 @@ impressumLink.addEventListener("click", () => {
 impressumContainer.addEventListener("click", () => {
   impressumContainer.classList.remove("impressum-active");
 });
+
+const age = document.querySelector("#age");
+const birthdate = new Date("1998-03-31");
+const today = new Date();
+const years = today.getFullYear() - birthdate.getFullYear();
+if (
+  today.getMonth() < birthdate.getMonth() ||
+  (today.getMonth() == birthdate.getMonth() &&
+    today.getDate() < birthdate.getDate())
+) {
+  age.innerHTML = years - 1;
+} else {
+  age.innerHTML = years;
+}
